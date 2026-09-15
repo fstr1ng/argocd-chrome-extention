@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argo CD Copier Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="popup-header">
+    <div class="brand">
+      <img src="icons/icon48.png" alt="Logo" class="brand-icon">
+      <div class="brand-text">
+        <h1 class="brand-title">Argo CD Copier</h1>
+        <span class="brand-badge">v1.1.0</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="popup-content">
+    <div class="status-panel" id="status-panel">
+      <span class="status-dot" id="status-dot"></span>
+      <span class="status-text" id="status-text">Checking page...</span>
+    </div>
+
+    <section class="settings-group">
+      <div class="setting-item">
+        <div class="setting-info">
+          <label for="auto-insert-toggle" class="setting-label">Automatic insert</label>
+          <p class="setting-description">
+            Automatically fills the confirmation input with the resource name when the delete modal opens.
+          </p>
+        </div>
+        <div class="setting-control">
+          <label class="switch">
+            <input type="checkbox" id="auto-insert-toggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <div class="save-indicator" id="save-indicator" aria-live="polite">Setting saved</div>
+  </main>
+
+  <footer class="popup-footer">
+    <span>Active only on Argo CD web interfaces</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
