@@ -1,4 +1,4 @@
-# Argo CD Kubernetes Resource Copier (Chrome Extension)
+# Argo CD Kubernetes Resource Name Copier (Chrome Extension)
 
 A lightweight Google Chrome extension designed specifically for the **Argo CD** web interface. It streamlines resource deletion confirmation workflows by adding one-click copy buttons and optional automatic confirmation filling.
 
