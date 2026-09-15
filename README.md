@@ -36,7 +36,7 @@ A lightweight Google Chrome extension designed specifically for the **Argo CD** 
 4. In the top-left corner, click the **"Load unpacked"** button.
 5. In the file picker dialog, select this folder:
    ```text
-   ./sd-argocd/chrome-addon-copy-button
+   ./argocd-chrome-extention
    ```
 6. The extension **"Argo CD Kubernetes Resource Copier"** will now appear in your active extensions list.
 7. *(Optional)* Click the puzzle piece icon in the Chrome toolbar and pin **Argo CD Copier** for quick access to the settings window.
@@ -46,7 +46,7 @@ A lightweight Google Chrome extension designed specifically for the **Argo CD** 
 ## Directory Structure
 
 ```text
-chrome-addon-copy-button/
+argocd-chrome-extention/
 ├── manifest.json       # Manifest V3 extension configuration & permissions
 ├── content.js          # Argo CD detector, modal scanner, and DOM injector
 ├── styles.css          # Injected button styles & dark mode support
